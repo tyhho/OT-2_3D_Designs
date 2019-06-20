@@ -12,6 +12,7 @@ A support base that permits OT-2 to use tips from TipOne more reliably. We tried
 This object was designed to work with TipOne 300 µL tips. It also works well with TipOne 200 µL or TipOne 10 µL tips albeit imperfect fit due to its design.
 
 Status: Functionally verified
+
 Recommended print setting: 40% infill, Cubic, Brim
 
 ### Substitutes for 4-in-1 tube rack set
