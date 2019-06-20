@@ -43,11 +43,12 @@ Status: Fits metallic block and slots on OT-2 well but not functionally verified
 
 ### OT-2 50 mL FalconTubeRack 1.8
 **Deprecated**
+
 A prototype before Substitutes for 4-in-1 tube rack set were designed. This holds 6  50 mL Falcon tubes. Object was deprecated because of redundancy and the inability to see depth of pipette tip at eye level.
 
 This object has an associated JSON file, written by Felipe Aguilera Millacura, for object creation through the OT-2 API. The file is available through a [repository](httpsgithub.comchris-french-labOT2_Objects) from the French lab.
 
 Recommended print setting: 40% infill, Brim, Triangle
 
-### QuestionsIssuesSuggestions
+### Questions/Issues/Suggestions
 Please contact me through email since I do not actively or passively monitor my Github. Thank you.
