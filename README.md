@@ -35,7 +35,7 @@ Base: 40% infill, Brim, Cubic
 |OT-2 0.75 mL Rack_TopPlate 2.0|To be verified, but holds tubes properly|
 
 ### Ice Block
-A horrendously low-end substitute for the official Temperature Module, designed to keep enzymes  reactions cold during a run. This object holds a metallic block (N2400-4021, N2400-4022, N2400-4023, or N2400-4024) that is compatible with the StarLab Mini Dry Bath (N2400-4021). 
+A horrendously low-end substitute for the official Temperature Module, designed to keep enzymes / reactions cold during a run. This object holds a metallic block (N2400-4021, N2400-4022, N2400-4023, or N2400-4024) that is compatible with the StarLab Mini Dry Bath (N2400-4021). 
 
 The envisioned usage is to insert the metallic block into the middle slot of the object, fill the rest of the space with water  plastic-compatible coolants, and then freeze it at -20 $degree$C overnight before use.
 
@@ -50,4 +50,4 @@ This object has an associated JSON file, written by Felipe Aguilera Millacura, f
 Recommended print setting: 40% infill, Brim, Triangle
 
 ### QuestionsIssuesSuggestions
-Please contact me through email since I do not actively or passively monitor my Github. thank you.
+Please contact me through email since I do not actively or passively monitor my Github. Thank you.
