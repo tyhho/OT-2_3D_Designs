@@ -11,8 +11,8 @@ A support base that permits OT-2 to use tips from TipOne more reliably. We tried
 
 This object was designed to work with TipOne 300 $mu$L tips. It also works well with TipOne 200 $mu$L or TipOne 10 $mu$L tips albeit imperfect fit due to its design.
 
-Status Functionally verified
-Recommended print setting 40% infill, Brim, Cubic
+Status: Functionally verified
+Recommended print setting: 40% infill, Brim, Cubic
 
 ### Substitutes for 4-in-1 tube rack set
 Relevant items
@@ -25,8 +25,8 @@ These designs are low-end substitutes for the official 4-in-1 tube rack set. Sim
 All the top plates used their corresponding labwares in the OT-2 API. The exception is OT-2 0.75 mL Rack_TopPlate 2.0, which requires a new labware object to be created since the height of the tube is different. We will post the Json file for creating the object when we have time.
 
 Recommended print settings
-Top Plate 10 - 20% infill, Brim, Triangle
-Base 40% infill, Brim, Cubic
+Top Plate: 10 - 20% infill, Brim, Triangle
+Base: 40% infill, Brim, Cubic
 
 |Design         |        Status |
 |-------------------|------------------------|
@@ -39,7 +39,7 @@ A horrendously low-end substitute for the official Temperature Module, designed 
 
 The envisioned usage is to insert the metallic block into the middle slot of the object, fill the rest of the space with water  plastic-compatible coolants, and then freeze it at -20 $degree$C overnight before use.
 
-Status Fits metallic block and slots on OT-2 well but not functionally verified. Concerns with possible water leak through PLA plastics and potential increase in object fragility due to repeated freeze-thaw cycles need to be empirically tested.
+Status: Fits metallic block and slots on OT-2 well but not functionally verified. Concerns with possible water leak through PLA plastics and potential increase in object fragility due to repeated freeze-thaw cycles need to be empirically tested.
 
 ### OT-2 50 mL FalconTubeRack 1.8
 **Deprecated**
@@ -47,7 +47,7 @@ A prototype before Substitutes for 4-in-1 tube rack set were designed. This hold
 
 This object has an associated JSON file, written by Felipe Aguilera Millacura, for object creation through the OT-2 API. The file is available through a [repository](httpsgithub.comchris-french-labOT2_Objects) from the French lab.
 
-Recommended print setting 40% infill, Brim, Triangle
+Recommended print setting: 40% infill, Brim, Triangle
 
 ### QuestionsIssuesSuggestions
 Please contact me through email since I do not actively or passively monitor my Github. thank you.
