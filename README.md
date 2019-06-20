@@ -9,7 +9,7 @@ I have uploaded [a short demo video](https://youtu.be/5dVj4VwHN3Q) that shows th
 ### 200 uL TipRackExterior
 A support base that permits OT-2 to use tips from TipOne more reliably. We tried copying the 3D design of TipOne tip box adaptor # 10uL  200uL  300uL suggested by Opentrons but the P50M had difficulty in picking up all the tips from a single column reliably.
 
-This object was designed to work with TipOne 300 $\mu$L tips. It also works well with TipOne 200 $\mu$L or TipOne 10 $\mu$L tips albeit imperfect fit due to its design.
+This object was designed to work with TipOne 300 µL tips. It also works well with TipOne 200 µL or TipOne 10 µL tips albeit imperfect fit due to its design.
 
 Status: Functionally verified
 Recommended print setting: 40% infill, Brim, Cubic
@@ -37,7 +37,7 @@ Base: 40% infill, Brim, Cubic
 ### Ice Block
 A horrendously low-end substitute for the official Temperature Module, designed to keep enzymes / reactions cold during a run. This object holds a metallic block (N2400-4021, N2400-4022, N2400-4023, or N2400-4024) that is compatible with the StarLab Mini Dry Bath (N2400-4021). 
 
-The envisioned usage is to insert the metallic block into the middle slot of the object, fill the rest of the space with water  plastic-compatible coolants, and then freeze it at -20 $\degree$C overnight before use.
+The envisioned usage is to insert the metallic block into the middle slot of the object, fill the rest of the space with water  plastic-compatible coolants, and then freeze it at -20 °C overnight before use.
 
 Status: Fits metallic block and slots on OT-2 well but not functionally verified. Concerns with possible water leak through PLA plastics and potential increase in object fragility due to repeated freeze-thaw cycles need to be empirically tested.
 
