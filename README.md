@@ -1,6 +1,6 @@
 # OT-2 3D Designs
 
-The OT-2 is an affordable and extremely versatile robotic liquid handler. Unfortunately we cannot sustain by using the official tips and racks so we created in-house 3D designs as low-end (but functional) substitutes. By no means these objects out-compete the official ones in performance, but they do the job. Personally I just cannot see why labs should be deterred from getting the OT-2 just because the racks / tips are relatively more expensive. 
+The OT-2 is an affordable and extremely versatile robotic liquid handler. Unfortunately we cannot sustain by using the official tips and racks so we created in-house 3D designs as low-end (but functional) substitutes. By no means these objects out-compete the official ones in performance, but they do the job. Personally I cannot see why labs should be deterred from getting the OT-2 just because the racks / tips are relatively more expensive, and these objects were shared here with the hope that it will encourage more labs to embrace the robot.
 
 Every file comes in two formats - the original design that was drawn using DesignSpark Mechanical (.rsdoc) and the output file (.stl) which should be ready for print without any tweaks. Verified objects were tested on the OT-2 owned by Prof. Chris French's group.
 
@@ -12,7 +12,7 @@ A support base that permits OT-2 to use tips from TipOne more reliably. We tried
 This object was designed to work with TipOne 300 µL tips. It also works well with TipOne 200 µL or TipOne 10 µL tips albeit imperfect fit due to its design.
 
 Status: Functionally verified
-Recommended print setting: 40% infill, Brim, Cubic
+Recommended print setting: 40% infill, Cubic, Brim
 
 ### Substitutes for 4-in-1 tube rack set
 Relevant items
@@ -25,8 +25,10 @@ These designs are low-end substitutes for the official 4-in-1 tube rack set. Sim
 All the top plates used their corresponding labwares in the OT-2 API. The exception is OT-2 0.75 mL Rack_TopPlate 2.0, which requires a new labware object to be created since the height of the tube is different. We will post the Json file for creating the object when we have time.
 
 Recommended print settings
-Top Plate: 10 - 20% infill, Brim, Triangle
-Base: 40% infill, Brim, Cubic
+
+Top Plate: 10 - 20% infill, Triangle, Brim
+
+Base: 40% infill, Cubic, Brim
 
 |Design         |        Status |
 |-------------------|------------------------|
@@ -46,9 +48,9 @@ Status: Fits metallic block and slots on OT-2 well but not functionally verified
 
 A prototype before Substitutes for 4-in-1 tube rack set were designed. This holds 6 x 50 mL Falcon tubes. Object was deprecated because of redundancy and the inability to see depth of pipette tip at eye level.
 
-This object has an associated JSON file, written by Felipe Aguilera Millacura, for object creation through the OT-2 API. The file is available through a [repository](httpsgithub.comchris-french-labOT2_Objects) from the French lab.
+This object has an associated JSON file, written by Felipe Aguilera Millacura, for object creation through the OT-2 API. The file is available through a [repository](https://github.com/chris-french-lab/OT2_Objects) from the French lab.
 
-Recommended print setting: 40% infill, Brim, Triangle
+Recommended print setting: 40% infill, Triangle, Brim
 
 ### Questions/Issues/Suggestions
 Please contact me through email since I do not actively or passively monitor my Github. Thank you.
