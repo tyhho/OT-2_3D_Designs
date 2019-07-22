@@ -17,7 +17,7 @@ The labware tiprack-200uL and tiprack-10ul can be used together with this object
 It should be noted that if two different kinds of tips are used together (e.g. 10 µL  and 300 µL), separate labwares (tiprack-10ul **&** tiprack-200uL) must be employed in the API, 
 because calibration data of the two objects need to be stored separately for proper tip pick up.
 Note that these labware objects will soon be phased out by Opentrons. Customized labware could be installed via the scripts below.
-The current API does not contain the function of offset and therefore users must first perform a dummy run to properly install theese new labwares into the machine. 
+The current API does not contain the function of offset and therefore users must first perform a dummy run to properly install these new labwares into the machine. 
 During this dummy run, the custom tip rack must be not placed in slots 1, 4, 7, 10 or else the robot arm will move beyond its properly functioning x-range.
  
 ```python
