@@ -81,7 +81,7 @@ Base: 40% infill, Cubic, Brim
 |OT-2 0.75 mL Rack_TopPlate 2.0|To be verified, but holds tubes properly|
 |OT-2 15 & 50 mL Rack_TopPlate 1.2|Verified|
 |OT-2 15 mL Rack_TopPlate 1.0|Design only, but dimensions follow that of 15 & 50 mL and so should work|
-|OT-2 50 mL Rack_TopPlate 1.0|Design only, but dimensions follow that of 15 & 50 mL and so should work|
+|OT-2 50 mL Rack_TopPlate 1.0|Verified|
 
 ### Ice Block
 A horrendously low-end substitute for the official Temperature Module, designed to keep enzymes / reactions cold during a run. This object holds a metallic block (N2400-4021, N2400-4022, N2400-4023, or N2400-4024) that is compatible with the StarLab Mini Dry Bath (N2400-4021). 
