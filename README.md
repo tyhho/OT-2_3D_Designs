@@ -49,7 +49,7 @@ Recommended print setting: 40% infill, Cubic, Brim
 
 ### Reverse-engineered 4-in-1 tube rack set
 Relevant items
-- OT-2 Rack_Base 3.0
+- OT-2 Rack_Base 4.0
 - OT-2 1.5 mL Rack_TopPlate 2.0 
 - OT-2 0.75 mL Rack_TopPlate 2.0
 - OT-2 15 & 50 mL Rack_TopPlate 1.2
@@ -76,7 +76,7 @@ Base: 40% infill, Cubic, Brim
 
 |Design         |        Status |
 |-------------------|------------------------|
-|OT-2 Rack_Base 3.0|Verified|
+|OT-2 Rack_Base 4.0|Verified|
 |OT-2 1.5 mL Rack_TopPlate 2.0|Verified|
 |OT-2 0.75 mL Rack_TopPlate 2.0|To be verified, but holds tubes properly|
 |OT-2 15 & 50 mL Rack_TopPlate 1.2|Verified|
