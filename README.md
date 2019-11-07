@@ -74,6 +74,8 @@ Top Plate: 10 - 20% infill, Triangle, Brim
 
 Base: 40% infill, Cubic, Brim
 
+**The holes for the M4 screws may have to be drilled bigger to allow the screws to pass through without resistance. The frequency of such needs depends on the positional accuracy and the robustness of the 3D printer you are using. For us it is common that 3 out of 4 holes need such drilling.**
+
 |Design         |        Status |
 |-------------------|------------------------|
 |OT-2 Rack_Base 4.0|Verified|
