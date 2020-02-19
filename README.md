@@ -64,6 +64,7 @@ APIv1 does not contain the function of offset and therefore users must first per
 During this dummy run, the custom tip rack must be not placed in slots 1, 4, 7, 10 or else the robot arm will move beyond its properly functioning x-range.
 
 Recommended print setting: 40% infill, Cubic, Brim
+
 Currently, the materials for printing is PLA. Switching to PP (Polypropylene) or Nylon may yield sterilizable tip racks through autoclave, but I do not have the material to test that.
 
 ### Reverse-engineered 4-in-1 tube rack set
