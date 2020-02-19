@@ -6,24 +6,41 @@ Every file comes in two formats - the original design that was drawn using Desig
 
 I have uploaded [a short demo video](https://youtu.be/5dVj4VwHN3Q) that shows the Tip Rack and Tube Rack in action.
 
-### 300 uL TipRackExterior
-A support base that permits OT-2 to use tips from TipOne more reliably. 
-We tried copying the 3D design of TipOne tip box adaptor # 10uL  200uL  300uL suggested by Opentrons but the P50M had difficulty in picking up all the tips from a single column reliably.
+### TipRackExterior
 
-This object was designed to work with TipOne 300 µL tips. It also works well with TipOne 10 µL tips albeit imperfect fit due to its design. TipOne 200 µL tips could be used but they work much less reliably
- than TipOne 300 µL tips (I previously wrote that 200 µL tips could be used well but this was found to be not the case after more testing). A combination of P50M and TipOne 200 µL tips gave marginally acceptable performance.
+Relevant items:
+|Design         |        Status |
+|-------------------|------------------------|
+|OT-2 10 uL TipRackExterior 2.0|To be verified|
+|OT-2 200 uL TipRackExterior 2.0|To be verified|
+|OT-2 300 uL TipRackExterior 2.2|Verified with GEN1 P300S|
+|OT-2 300 uL TipRackExterior 3.0|To be verified, but design is improved upon 2.2 and should work flawlessly|
 
-The labware tiprack-200uL and tiprack-10ul can be used together with this object. 
-It should be noted that if two different kinds of tips are used together (e.g. 10 µL  and 300 µL), separate labwares (tiprack-10ul **&** tiprack-200uL) must be employed in the API, 
-because calibration data of the two objects need to be stored separately for proper tip pick up.
-Note that these labware objects will soon be phased out by Opentrons. Customized labware could be installed via the scripts below.
-The current API does not contain the function of offset and therefore users must first perform a dummy run to properly install these new labwares into the machine. 
+**Note: OT-2 P10 8-channel pipettes can pick up TipOne tips but do not form air-tight vacuum seals. Official Opentrons/GEB 10 µL tips are indispensible.**
+
+Support bases that permit OT-2 to use tips from TipOne more reliably. 
+Opentrons has a [3D design of TipOne tip box adaptor](https://github.com/Opentrons/otone_hardware/blob/master/models/TipOne%20tip%20rack.stl). We tried printing and using one but the performance was unsatisfactory. The P50M had difficulty in picking up all the tips from a single column reliably. This leads us to develop our in-house solutions.
+
+The labware tiprack-200uL and tiprack-10ul can be used together with these object.
+
+It should be noted that if two different kinds of tips are used together (e.g. 20 µL  and 300 µL), separate labwares ("tiprack-10ul" **&** "tiprack-300uL-custom") must be employed in the API, because calibration data of the two objects need to be stored separately for proper tip pick up.
+
+The labware objects "tiprack-200uL" and "tiprack-10ul" at the moment are still available. However, customized labware could be installed via the scripts below.
+The current API does not contain the function of offset and therefore users must first perform a dummy run to properly install these new labwares into the machine.
 During this dummy run, the custom tip rack must be not placed in slots 1, 4, 7, 10 or else the robot arm will move beyond its properly functioning x-range.
-
-Note: OT-2 P10 8-channel pipettes do not fit well with TipOne tips. Official Opentrons/GEB 10 µL tips are indispensible.
 
 ```python
 tip_rack_name = 'tiprack-300ul-custom'
+if tip_rack_name not in labware.list():
+    custom_plate = labware.create(
+        tip_rack_name,                    # name of you labware
+        grid=(12, 8),                    # specify amount of (columns, rows)
+        spacing=(9, 9),               # distances (mm) between each (column, row)
+        diameter=3,                     # diameter (mm) of each well on the plate
+        depth=10,                       # depth (mm) of each well on the plate
+        volume=10
+        )
+tip_rack_name = 'tiprack-200ul-custom'
 if tip_rack_name not in labware.list():
     custom_plate = labware.create(
         tip_rack_name,                    # name of you labware
@@ -45,19 +62,19 @@ if tip_rack_name not in labware.list():
         )
 ```
 
-Status: Functionally verified
-
 Recommended print setting: 40% infill, Cubic, Brim
 
 ### Reverse-engineered 4-in-1 tube rack set
-Relevant items
-- OT-2 Rack_Base 4.0
-- OT-2 1.5 mL Rack_TopPlate 2.0 
-- OT-2 0.75 mL Rack_TopPlate 2.0
-- OT-2 15 & 50 mL Rack_TopPlate 1.2
-- OT-2 15 mL Rack_TopPlate 1.0
-- OT-2 50 mL Rack_TopPlate 1.0
 
+Relevant items:
+|Design         |        Status |
+|-------------------|------------------------|
+|OT-2 Rack_Base 4.0|Verified|
+|OT-2 1.5 mL Rack_TopPlate 2.0|Verified|
+|OT-2 0.75 mL Rack_TopPlate 2.0|To be verified, but holds tubes properly|
+|OT-2 15 & 50 mL Rack_TopPlate 1.2|Verified|
+|OT-2 15 mL Rack_TopPlate 1.0|Design only, but dimensions follow that of 15 & 50 mL and so should work|
+|OT-2 50 mL Rack_TopPlate 1.0|Verified|
 
 These designs are low-end substitutes reverse-engineered from the official 4-in-1 tube rack set.
 Similar to the official design the objects are separated into the Top Plate and the Tube Rack Stand (which I named as Base for convenience) and the Base can be used interchangeably with different Top Plates.
@@ -77,15 +94,6 @@ Top Plate: 10 - 20% infill, Triangle, Brim
 Base: 40% infill, Cubic, Brim
 
 **The holes for the M4 screws may have to be drilled bigger to allow the screws to pass through without resistance. The frequency of such needs depends on the positional accuracy and the robustness of the 3D printer you are using. For us it is common that 3 out of 4 holes need such drilling.**
-
-|Design         |        Status |
-|-------------------|------------------------|
-|OT-2 Rack_Base 4.0|Verified|
-|OT-2 1.5 mL Rack_TopPlate 2.0|Verified|
-|OT-2 0.75 mL Rack_TopPlate 2.0|To be verified, but holds tubes properly|
-|OT-2 15 & 50 mL Rack_TopPlate 1.2|Verified|
-|OT-2 15 mL Rack_TopPlate 1.0|Design only, but dimensions follow that of 15 & 50 mL and so should work|
-|OT-2 50 mL Rack_TopPlate 1.0|Verified|
 
 ### Ice Block
 A horrendously low-end substitute for the official Temperature Module, designed to keep enzymes / reactions cold during a run. This object holds a metallic block (N2400-4021, N2400-4022, N2400-4023, or N2400-4024) that is compatible with the StarLab Mini Dry Bath (N2400-4021). 
