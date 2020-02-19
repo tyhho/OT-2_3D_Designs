@@ -21,13 +21,11 @@ Relevant items:
 Support bases that permit OT-2 to use tips from TipOne more reliably. 
 Opentrons has a [3D design of TipOne tip box adaptor](https://github.com/Opentrons/otone_hardware/blob/master/models/TipOne%20tip%20rack.stl). We tried printing and using one but the performance was unsatisfactory. The P50M had difficulty in picking up all the tips from a single column reliably. This led us to develop our in-house solutions.
 
-The labware tiprack-200uL and tiprack-10ul can be used together with these object.
+The labwares "tiprack-200uL" and "tiprack-10ul" can be used together with these object.
 
-It should be noted that if two different kinds of tips are used together (e.g. 20 µL  and 300 µL), separate labwares ("tiprack-10ul" **&** "tiprack-300uL-custom") must be employed in the API, because calibration data of the two objects need to be stored separately for proper tip pick up.
+It should be noted that if two different kinds of tips are used together (e.g. 20 µL and 300 µL), separate labwares ("tiprack-10ul" **&** "tiprack-300uL-custom") must be employed in the API, because calibration data of the two objects need to be stored separately for proper tip pick up.
 
-The labware objects "tiprack-200uL" and "tiprack-10ul" at the moment are still available. However, customized labware could be installed via the scripts below.
-The current API does not contain the function of offset and therefore users must first perform a dummy run to properly install these new labwares into the machine.
-During this dummy run, the custom tip rack must be not placed in slots 1, 4, 7, 10 or else the robot arm will move beyond its properly functioning x-range.
+The labware objects "tiprack-200uL" and "tiprack-10ul" at the moment are still available. Customized labware could also be installed via the APIv1 scripts below. Understandably, the Opentrons Custom Labware Creator BETA does not appear to support creation of custom tip racks.
 
 ```python
 tip_rack_name = 'tiprack-300ul-custom'
@@ -62,7 +60,11 @@ if tip_rack_name not in labware.list():
         )
 ```
 
+APIv1 does not contain the function of offset and therefore users must first perform a dummy run to properly install these new labwares into the machine.
+During this dummy run, the custom tip rack must be not placed in slots 1, 4, 7, 10 or else the robot arm will move beyond its properly functioning x-range.
+
 Recommended print setting: 40% infill, Cubic, Brim
+Currently, the materials for printing is PLA. Switching to PP (Polypropylene) or Nylon may yield sterilizable tip racks through autoclave, but I do not have the material to test that.
 
 ### Reverse-engineered 4-in-1 tube rack set
 
