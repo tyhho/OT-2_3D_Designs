@@ -19,7 +19,7 @@ Relevant items:
 **Note: OT-2 P10 8-channel pipettes can pick up TipOne tips but do not form air-tight vacuum seals. Official Opentrons/GEB 10 µL tips are indispensible.**
 
 Support bases that permit OT-2 to use tips from TipOne more reliably. 
-Opentrons has a [3D design of TipOne tip box adaptor](https://github.com/Opentrons/otone_hardware/blob/master/models/TipOne%20tip%20rack.stl). We tried printing and using one but the performance was unsatisfactory. The P50M had difficulty in picking up all the tips from a single column reliably. This leads us to develop our in-house solutions.
+Opentrons has a [3D design of TipOne tip box adaptor](https://github.com/Opentrons/otone_hardware/blob/master/models/TipOne%20tip%20rack.stl). We tried printing and using one but the performance was unsatisfactory. The P50M had difficulty in picking up all the tips from a single column reliably. This led us to develop our in-house solutions.
 
 The labware tiprack-200uL and tiprack-10ul can be used together with these object.
 
