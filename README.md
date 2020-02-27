@@ -21,9 +21,9 @@ Relevant items:
 Support bases that permit OT-2 to use tips from TipOne more reliably. 
 Opentrons has a [3D design of TipOne tip box adaptor](https://github.com/Opentrons/otone_hardware/blob/master/models/TipOne%20tip%20rack.stl). We tried printing and using one but the performance was unsatisfactory. The P50M had difficulty in picking up all the tips from a single column reliably. This led us to develop our in-house solutions.
 
-The labwares "tiprack-200uL" and "tiprack-10ul" can be used together with these object.
+The labwares "tiprack-200uL" and "tiprack-10ul" in APIv1 can be used together with these object. For APIv2, users could try to employ these objects while calling the Opentrons Tip Racks labware, at their own risks. Currently, there is no way to create a custom labware object for tip racks on APIv2.
 
-It should be noted that if two different kinds of tips are used together (e.g. 20 µL and 300 µL), separate labwares ("tiprack-10ul" **&** "tiprack-300uL-custom") must be employed in the API, because calibration data of the two objects need to be stored separately for proper tip pick up.
+It should be noted that if two different kinds of tips are used together (e.g. 20 µL and 300 µL), separate labwares ("tiprack-10ul" **&** "tiprack-300uL-custom") must be employed in the APIv1, because calibration data of the two objects need to be stored separately for proper tip pick up.
 
 The labware objects "tiprack-200uL" and "tiprack-10ul" at the moment are still available. Customized labware could also be installed via the APIv1 scripts below. Understandably, the Opentrons Custom Labware Creator BETA does not appear to support creation of custom tip racks.
 
