@@ -12,7 +12,7 @@ Relevant items:
 |Design         |        Status |
 |-------------------|------------------------|
 |OT-2 10 uL TipRackExterior 2.0|To be verified|
-|OT-2 200 uL TipRackExterior 2.0|To be verified|
+|OT-2 200 uL TipRackExterior 2.1|To be verified|
 |OT-2 300 uL TipRackExterior 2.2|Verified with GEN1 P300S|
 |OT-2 300 uL TipRackExterior 3.0|To be verified, but design is improved upon 2.2 and should work flawlessly|
 
