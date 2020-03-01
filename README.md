@@ -16,10 +16,12 @@ Relevant items:
 |OT-2 300 uL TipRackExterior 2.2|Verified with GEN1 P300S|
 |OT-2 300 uL TipRackExterior 3.0|To be verified, but design is improved upon 2.2 and should work flawlessly|
 
-**Note: OT-2 P10 8-channel pipettes can pick up TipOne tips but do not form air-tight vacuum seals. Official Opentrons/GEB 10 µL tips are indispensible.**
+**OT-2 P10 8-channel pipettes can pick up TipOne tips but do not form air-tight vacuum seals. Official Opentrons/GEB 10 µL tips are indispensible.**
 
 Support bases that permit OT-2 to use tips from TipOne more reliably. 
 Opentrons has a [3D design of TipOne tip box adaptor](https://github.com/Opentrons/otone_hardware/blob/master/models/TipOne%20tip%20rack.stl). We tried printing and using one but the performance was unsatisfactory. The P50M had difficulty in picking up all the tips from a single column reliably. This led us to develop our in-house solutions.
+
+**Official Opentrons tips and tip racks are superior in reliability. These custom tip racks work most of the time, but ocassionally, picked up tips could drag up the entire tip rack plastic insert and wreak havoc. This could be minimized but not eliminated by proper tip rack alignment. OT-2 users who seek to the overwork the robot without supervising it should stick with official Opentrons tips and tip racks.**
 
 The labwares "tiprack-200uL" and "tiprack-10ul" in APIv1 can be used together with these object. For APIv2, users could try to employ these objects while calling the Opentrons Tip Racks labware, at their own risks. Currently, there is no way to create a custom labware object for tip racks on APIv2.
 
