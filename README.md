@@ -8,7 +8,7 @@ I have uploaded [a short demo video](https://youtu.be/5dVj4VwHN3Q) that shows th
 
 ### TipRackExterior
 
-<img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/TipRackExterior_withoutTips.jpg" alt="TipRackExterior Without Tips" width="300"><img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/TipRackExterior_withTips.jpg" alt="TipRackExterior With Tips" width="300">
+<img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/TipRackExteriors_withoutTips.jpg" alt="TipRackExterior Without Tips" width="300"><img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/TipRackExteriors_withTips.jpg" alt="TipRackExterior With Tips" width="300">
 
 Relevant items:
 |Design         |        Status |
