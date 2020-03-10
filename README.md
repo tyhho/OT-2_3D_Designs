@@ -119,3 +119,6 @@ Recommended print setting: 40% infill, Triangle, Brim
 
 ### Questions/Issues/Suggestions
 Please contact me through email since I do not actively or passively monitor my Github. Thank you.
+
+### License
+Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
