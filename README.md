@@ -89,7 +89,7 @@ Status: Fits metallic block and slots on OT-2 well but not functionally verified
 Please contact me through email since I do not actively or passively monitor my Github. Thank you.
 
 ## Acknowledgement
-I thank Dr. Logan Mackay (Mass Spectrometry Facility, University of Edinburgh) for providing access to a 3D printer, [Felipe A. Millacura](https://github.com/millacurafa) and the French group for inducting me into the OT-2 community, and the Wang group for purchasing the additional OT-2 pipettes.  
+I thank Dr. Logan Mackay (Mass Spectrometry Facility, University of Edinburgh) for providing access to a 3D printer, [Felipe A. Millacura](https://github.com/millacurafa) and the French group for access to the robot and for inducting me into the OT-2 community, and the Wang group for purchasing the additional OT-2 pipettes.  
 
 ## License
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
