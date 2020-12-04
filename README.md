@@ -6,9 +6,9 @@ Every file comes in two formats - the original design that was drawn using Desig
 
 I have uploaded [a short demo video](https://youtu.be/O2pek04nZW8) that shows the tip Rack (old version) and Tube Rack in action.
 
-### 300 uL TipRackExterior 4.0 for TipOne tips
+## 300 uL TipRackExterior 4.0 for TipOne tips
 
-**Before you read on: Official Opentrons tips and tip racks are superior in reliability. These custom tip racks will suffice for short protocols if you supervise the robot and intervene before things go horribly wrong. It is understood that many seek to cut costs by using 3rd-party tips, but even a single missed tip pick up could ruin an entire experiment and waste batch reagents. OT-2 users who wish to the overwork the robot without supervising it should stick with official Opentrons tips and tip racks.**
+**Before you read on: Official Opentrons tips and tip racks are superior in reliability. These custom tip racks will suffice for short protocols if you supervise the robot and intervene before things go horribly wrong. It is understood that many seek to cut costs by using 3rd-party tips, but even a single missed tip pick up could ruin an entire experiment and waste batch reagents. OT-2 users who wish to the overwork the robot without supervising it should stick with official Opentrons tips and tip racks.**  
 
 <!--
 -->
@@ -31,7 +31,7 @@ Recommended print setting: 20% infill, Triangle, Brim
 
 Currently, the materials for printing is PLA. Switching to PP (Polypropylene) or Nylon may yield sterilizable tip racks through autoclave, but I do not have the material to test that.
 
-### Reverse-engineered 4-in-1 tube rack set
+## Reverse-engineered 4-in-1 tube rack set
 
 <img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/4-in-1_rack_1.jpg" alt="50 mL and 1.5 mL Tube Rack" width="600">  
 
@@ -60,7 +60,7 @@ Base: 20 % infill, Triangle, Brim
 
 **The holes for the M4 screws may have to be drilled bigger to allow the screws to pass through without resistance. The frequency of such needs depends on the positional accuracy and the robustness of the 3D printer you are using. For us it is common that 3 out of 4 holes need such drilling.**
 
-### Custom labware .json files for existing labwares
+## Custom labware .json files for existing labwares
 
 <img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/GBO_one_well_agar_plate_1.jpg" alt="Agar plate" width="400">  
 
@@ -71,9 +71,9 @@ Relevant files:
 |starlabpcrplateonws_96_wellplate_350ul.json|StarLab 96-well PCR plate (E1403-0100) on StarLab PCR Workstation (E2396-1641)|Align Workstation to top left of labware slot on deck|
 |starlabpcrwsstrips_96_wellplate_200ul.json|StarLab 0.2 ml 8-Strip PCR Tubes (I1402-3500) on StarLab PCR Workstation (E2396-1641)|Align Workstation to top left of labware slot on deck|
 
-**the API name is the file name with the suffix ".json" removed.** 
+**The API name is the file name with the suffix ".json" removed.** 
 
-### Ice Block
+## Ice Block
 
 <img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/DIY_iceblock_1.jpg" alt="Ice Block" width="600">  
 
@@ -85,8 +85,8 @@ This object has an associated JSON file, written by Felipe Aguilera Millacura, f
 
 Status: Fits metallic block and slots on OT-2 well but not functionally verified. Concerns with possible water leak through PLA plastics and potential increase in object fragility due to repeated freeze-thaw cycles need to be empirically tested.
 
-### Questions/Issues/Suggestions
+## Questions/Issues/Suggestions
 Please contact me through email since I do not actively or passively monitor my Github. Thank you.
 
-### License
+## License
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
