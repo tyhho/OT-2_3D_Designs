@@ -62,7 +62,7 @@ Base: 20 % infill, Triangle, Brim
 
 ## Custom labware .json files for existing labwares
 
-<img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/GBO_one_well_agar_plate_1.jpg" alt="Agar plate" width="400">  
+<img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/GBO_one_well_agar_plate_1.jpg" alt="Agar plate" width="300"><img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/PCR_plate_on_WS.jpg" alt="PCR Plate on WS" width="300"><img src="https://github.com/tyhho/OT-2_3D_Designs/blob/master/images/PCR_stripe_on_WS.jpg" alt="PCR stripe on WS" width="300">  
 
 Relevant files:
 |File         |Labware Object(s)|Remarks|
