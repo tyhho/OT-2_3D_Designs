@@ -71,7 +71,7 @@ Relevant files:
 |starlabpcrplateonws_96_wellplate_350ul.json|StarLab 96-well PCR plate (E1403-0100) on StarLab PCR Workstation (E2396-1641)|Align Workstation to top left of labware slot on deck|
 |starlabpcrwsstrips_96_wellplate_200ul.json|StarLab 0.2 ml 8-Strip PCR Tubes (I1402-3500) on StarLab PCR Workstation (E2396-1641)|Align Workstation to top left of labware slot on deck|
 
-**The API name is the file name with the suffix ".json" removed.** 
+**The API name is the file name with the suffix ".json" removed.**
 
 ## Ice Block
 
@@ -86,7 +86,7 @@ This object has an associated JSON file, written by Felipe Aguilera Millacura, f
 Status: Fits metallic block and slots on OT-2 well but not functionally verified. Concerns with possible water leak through PLA plastics and potential increase in object fragility due to repeated freeze-thaw cycles need to be empirically tested.
 
 ## Questions/Issues/Suggestions
-Please contact me through email since I do not actively or passively monitor my Github. Thank you.
+Please contact me through email since I do not actively or passively monitor my GitHub. Thank you.
 
 ## Acknowledgement
 I thank Dr. Logan Mackay (Mass Spectrometry Facility, University of Edinburgh) for providing access to a 3D printer, [Felipe A. Millacura](https://github.com/millacurafa) and the French group for access to the robot and for inducting me into the OT-2 community, and the Wang group for purchasing the additional OT-2 pipettes.  
